@@ -9,11 +9,11 @@ export const Item = styled.li`
   padding: 5px;
 
   &:nth-child(even) {
-    background-color:#d1f1d1
+      background: linear-gradient(0.25turn, #d1f1d1, #ffffff));
   }
 
   &:nth-child(odd) {
-    background-color: #87df87;
+      background: linear-gradient(0.25turn, #36bf36, #ffffff);
   }
 `;
 
